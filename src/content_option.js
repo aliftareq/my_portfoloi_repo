@@ -10,9 +10,9 @@ const meta = {
 const introdata = {
     title: "I’m Alif Hossen",
     animated: {
-        first: "I love coding",
+        first: "A full stack developer",
         second: "Passionate about building cool websites",
-        third: "Love to make people happy with Services.",
+        third: "Love to make people happy with my Services.",
     },
     description: "Are your thinking about build an optimized eye-soothing website for your bussiness? Then, you are in the right place, together you and i will build your dream project and will take your bussiness on immense high.",
     your_img_url: "https://i.ibb.co/Gt5WGdF/my-new-pro-pic.jpg",
@@ -80,12 +80,10 @@ const contactConfig = {
     YOUR_EMAIL: "aliftareq@gmail.com",
     YOUR_FONE: "+880-1834910647",
     description: "if you have an important query or you want explore about me more, plz leave a message with your email so that I can reach you there.",
-    // creat an emailjs.com account 
-    // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_lgidt22",
     YOUR_TEMPLATE_ID: "template_cewz8x8",
     YOUR_USER_ID: "user_id",
-    api_key: 'AfVWhCuyk5twJlk2b'
+    api_key: 'hQiPQjwypXV9Jm2eStvNB'
 };
 
 const socialprofils = {

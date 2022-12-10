@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-// import * as emailjs from "emailjs-com";
+import React, { useState, useRef } from "react";
 import emailjs from '@emailjs/browser';
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
@@ -8,6 +7,9 @@ import { Container, Row, Col, Alert } from "react-bootstrap";
 import { contactConfig } from "../../content_option";
 
 export const ContactUs = () => {
+
+
+
   const [formData, setFormdata] = useState({
     email: "",
     name: "",
@@ -36,7 +38,7 @@ export const ContactUs = () => {
       contactConfig.YOUR_TEMPLATE_ID,
       templateParams,
       contactConfig.YOUR_USER_ID,
-      contactConfig.api_key
+      "AfVWhCuyk5twJlk2b"
     )
       .then(
         (result) => {
