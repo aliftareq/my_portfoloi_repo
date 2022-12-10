@@ -21,38 +21,38 @@ const dataabout = {
 };
 
 const skills = [{
-    name: "Python",
-    value: 90,
-},
-{
-    name: "Djano",
-    value: 85,
-},
-{
-    name: "Javascript",
+    name: "JavaScript",
     value: 80,
 },
 {
     name: "React",
+    value: 85,
+},
+{
+    name: "Express",
+    value: 70,
+},
+{
+    name: "MongoDB",
     value: 60,
 },
 {
-    name: "Jquery",
+    name: "Firebase",
     value: 85,
 },
 ];
 
 const services = [{
-    title: "UI & UX Design",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+    title: "Develop Web application",
+    description: "I can build a web application for you from scratch using the most populer JS framework, i never compromised about security that why i always try to build an application with proper authentication & authorization system with firebase. Beside, I can set up your applicaiton as it can interect with real time data which will be build with express and mongodb. I have my full confidance build a full application with these technologies.",
 },
 {
-    title: "Mobile Apps",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+    title: "UI/UX",
+    description: "UI/UX is an most important thing about an application. I have an boost confidance to make a application user friendly and make its UI attractive to the user. I worked on several Projects UI&UX that gives me confidance make better one for you.",
 },
 {
     title: "Wordpress Design",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+    description: "Have little bit experience on it , But i could help with functionalities and so on.",
 },
 ];
 
@@ -120,9 +120,9 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "aliftareq@gmail.com",
+    YOUR_FONE: "+880-1834910647",
+    description: "if you have an important query or you want explore about me more, plz leave a message with your email so that I can reach you there.",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
