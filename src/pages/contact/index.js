@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import * as emailjs from "emailjs-com";
+// import * as emailjs from "emailjs-com";
+import emailjs from '@emailjs/browser';
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { meta } from "../../content_option";
@@ -28,19 +29,21 @@ export const ContactUs = () => {
       message: formData.message,
     };
 
-    emailjs
-      .send(
-        contactConfig.YOUR_SERVICE_ID,
-        contactConfig.YOUR_TEMPLATE_ID,
-        templateParams,
-        contactConfig.YOUR_USER_ID
-      )
+    console.log(contactConfig.api_key);
+
+    emailjs.send(
+      contactConfig.YOUR_SERVICE_ID,
+      contactConfig.YOUR_TEMPLATE_ID,
+      templateParams,
+      contactConfig.YOUR_USER_ID,
+      contactConfig.api_key
+    )
       .then(
         (result) => {
           console.log(result.text);
           setFormdata({
             loading: false,
-            alertmessage: "SUCCESS! ,Thankyou for your messege",
+            alertmessage: "SUCCESS! ,Thank you for your messege",
             variant: "success",
             show: true,
           });
@@ -48,7 +51,7 @@ export const ContactUs = () => {
         (error) => {
           console.log(error.text);
           setFormdata({
-            alertmessage: `Faild to send!,${error.text}`,
+            alertmessage: `Failed to send!,${error.text}`,
             variant: "danger",
             show: true,
           });
@@ -83,9 +86,8 @@ export const ContactUs = () => {
             <Alert
               //show={formData.show}
               variant={formData.variant}
-              className={`rounded-0 co_alert ${
-                formData.show ? "d-block" : "d-none"
-              }`}
+              className={`rounded-0 co_alert ${formData.show ? "d-block" : "d-none"
+                }`}
               onClose={() => setFormdata({ show: false })}
               dismissible
             >

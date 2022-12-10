@@ -125,9 +125,10 @@ const contactConfig = {
     description: "if you have an important query or you want explore about me more, plz leave a message with your email so that I can reach you there.",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
+    YOUR_SERVICE_ID: "service_lgidt22",
+    YOUR_TEMPLATE_ID: "template_cewz8x8",
     YOUR_USER_ID: "user_id",
+    api_key: 'AfVWhCuyk5twJlk2b'
 };
 
 const socialprofils = {
