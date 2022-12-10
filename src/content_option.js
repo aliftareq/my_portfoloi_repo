@@ -11,10 +11,10 @@ const introdata = {
         second: "Pasionate about build cool websites",
         third: "Love to make people happy with my humors.",
     },
-    description: "Are your thinking about build a optimized eye-soothing website for your bussiness? Then, you are in the right place, together you and i will build your dream project and will take your bussiness on immense high.",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "Are your thinking about build an optimized eye-soothing website for your bussiness? Then, you are in the right place, together you and i will build your dream project and will take your bussiness on immense high.",
+    your_img_url: "https://i.ibb.co/Gt5WGdF/my-new-pro-pic.jpg",
 };
-
+//https://images.unsplash.com/photo-1514790193030-c89d266d5a9d
 const dataabout = {
     title: "abit about my self",
     aboutme: "I started my carrear as a frontend developer, now trying to switching as full-stack developer, I can help you to build a optimized eye-soothing website and love to growth your bussiness immensly.",
@@ -147,9 +147,9 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
+    github: "https://github.com/aliftareq",
+    facebook: "https://www.facebook.com/olokikalif37/",
+    linkedin: "https://www.linkedin.com/in/alif-tareq/",
     twitter: "https://twitter.com",
     youtube: "https://youtube.com",
     twitch: "https://twitch.com",
