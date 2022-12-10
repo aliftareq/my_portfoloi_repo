@@ -8,33 +8,17 @@ const introdata = {
     title: "I’m Alif Hossen",
     animated: {
         first: "I love coding",
-        second: "Pasionate about build cool websites",
-        third: "Love to make people happy with my humors.",
+        second: "Passionate about building cool websites",
+        third: "Love to make people happy with Services.",
     },
     description: "Are your thinking about build an optimized eye-soothing website for your bussiness? Then, you are in the right place, together you and i will build your dream project and will take your bussiness on immense high.",
     your_img_url: "https://i.ibb.co/Gt5WGdF/my-new-pro-pic.jpg",
 };
 //https://images.unsplash.com/photo-1514790193030-c89d266d5a9d
 const dataabout = {
-    title: "abit about my self",
+    title: "a-bit about my self",
     aboutme: "I started my carrear as a frontend developer, now trying to switching as full-stack developer, I can help you to build a optimized eye-soothing website and love to growth your bussiness immensly.",
 };
-const worktimeline = [{
-    jobtitle: "Designer of week",
-    where: "YAdfi",
-    date: "2020",
-},
-{
-    jobtitle: "Designer of week",
-    where: "Jamalya",
-    date: "2019",
-},
-{
-    jobtitle: "Designer of week",
-    where: "ALquds",
-    date: "2019",
-},
-];
 
 const skills = [{
     name: "Python",
@@ -158,7 +142,6 @@ export {
     meta,
     dataabout,
     dataportfolio,
-    worktimeline,
     skills,
     services,
     introdata,
