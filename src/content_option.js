@@ -83,7 +83,7 @@ const contactConfig = {
     YOUR_SERVICE_ID: "service_lgidt22",
     YOUR_TEMPLATE_ID: "template_cewz8x8",
     YOUR_USER_ID: "user_id",
-    api_key: 'hQiPQjwypXV9Jm2eStvNB'
+    api_key: 'AfVWhCuyk5twJlk2b'
 };
 
 const socialprofils = {

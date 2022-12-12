@@ -37,8 +37,8 @@ export const ContactUs = () => {
       contactConfig.YOUR_SERVICE_ID,
       contactConfig.YOUR_TEMPLATE_ID,
       templateParams,
-      contactConfig.YOUR_USER_ID,
-      "AfVWhCuyk5twJlk2b"
+      // contactConfig.YOUR_USER_ID,
+      contactConfig.api_key,
     )
       .then(
         (result) => {
